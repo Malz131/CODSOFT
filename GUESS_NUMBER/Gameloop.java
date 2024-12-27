@@ -19,7 +19,9 @@ public class Gameloop{
             System.out.println("The random number is "+Integer.toString(number.number)+" (this is for debugging purposes)");
 
             System.out.println("##################");
-            System.out.println("Score: "+Integer.toString(number.score));
+            System.out.print("Score: "+Integer.toString(number.score)+" ");
+            System.out.print("Tries: "+Integer.toString(number.tries));
+            System.out.println("");
             System.out.println("##################");
             System.out.print("Enter the guess for generated number: ");
             try{
