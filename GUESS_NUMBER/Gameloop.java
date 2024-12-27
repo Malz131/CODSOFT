@@ -22,6 +22,7 @@ public class Gameloop{
             System.out.println("Score: "+Integer.toString(number.score));
             System.out.println("##################");
             System.out.print("Enter the guess for generated number: ");
+            try{
             int input=Integer.parseInt(StdIn.nextLine());
             String outcome=number.checker(input);
 
@@ -47,8 +48,12 @@ public class Gameloop{
                 break;}
             else if ("yes".equals(input0)){
             number.tries=number.tries-1;}
-            System.out.println(number.tries);
+            System.out.println("Tries left: "+Integer.toString(number.tries));
         }}
+        catch(Exception e){
+            System.out.println("Incorrect input!");
+        }
+    }
         if(number.tries==0){
             System.out.println("Out of tries.Game ends");
         }
