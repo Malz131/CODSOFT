@@ -16,6 +16,8 @@ public class Gameloop{
         Scanner StdIn=new Scanner(System.in);
         while (number.tries!=0){
             //check the actual value of the number being guessed.(debugging purposes)
+            System.out.println("");
+        
             System.out.println("The random number is "+Integer.toString(number.number)+" (this is for debugging purposes)");
 
             System.out.println("##################");
