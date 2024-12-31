@@ -39,7 +39,7 @@ public class Gameloop{
             System.out.print("Tries: "+Integer.toString(number.tries));
             System.out.println("");
             System.out.println("##################");
-            System.out.print("Enter the guess for generated number: ");}
+            System.out.print("Enter the guess for generated number(1-100): ");}
             try{
             if (iscontinue==true && iscontinue0==true){
             int input=Integer.parseInt(StdIn.nextLine());
