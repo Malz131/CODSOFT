@@ -19,8 +19,13 @@ public class Gameloop{
         //this supress any resource leakage warnings from StdIn object:
         @SuppressWarnings("resource")
         Scanner StdIn=new Scanner(System.in);
+
+        /*This two variables(iscontinue & iscontinue0) are ustilised to control 
+        the order of what part of code is executed first when 
+        the player want to continue playing or want to try again.*/
         boolean iscontinue=true;
         boolean iscontinue0=true;
+
         while (number.tries!=0){
 
             if (iscontinue==true && iscontinue0==true){
@@ -88,6 +93,8 @@ public class Gameloop{
     }
         if(number.tries==0){
             System.out.println("Out of tries. Game over!");
+            System.out.println("The actual number is "+Integer.toString(number.number));
+
         }
         else{
             System.out.println("Game over!");
