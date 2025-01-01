@@ -3,7 +3,7 @@
 Description:
 -----
 Calculates a student's percentage average,total mark and grade.
- 
+
 GAME EXECUTION:
 ------
 For the game to execute run the following in the terminal (after cloning the CODSOFT repository):<br>
@@ -13,10 +13,10 @@ Example Display:
 ----
 <pre>
 ~~FINAL SUBJECTS~~
-english: 50.0
-math: 50.0
-donne: 55.0
+English: 76.0
+Math: 67.0
+Physics: 56.0
 -----------------
-Total marks: 155.0
-Average Percentage: 51.666666666666664  Grade: C
+Total marks: 199.0
+Average Percentage: 66.33333333333333  Grade: C
 </pre>
