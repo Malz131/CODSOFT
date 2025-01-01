@@ -19,8 +19,11 @@ public class Calculator {
         public static double average_percentage(){
             Set<String> subjects=student.get_subjects();
             int number_of_subj=subjects.size();
+            if (total_marks()==0){return 0.0;}
+            else{
             double average = total_marks()/number_of_subj;
-        return average;
+            return average;}
+        
     }
         public static String grade_decider(){
             Long average=Math.round(average_percentage());
