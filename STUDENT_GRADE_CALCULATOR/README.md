@@ -4,7 +4,7 @@ Description:
 -----
 Calculates a student's percentage average,total mark and grade.
 <br>
-The Student is able to modify/edit any subjects and their marks after input.
+The Student is able to modify/edit any subjects and their marks after initial input.
 <br>
 Changes that can be made are:<br>
 -remove:Removes a subject that was inputed.<br>
