@@ -3,6 +3,14 @@
 Description:
 -----
 Calculates a student's percentage average,total mark and grade.
+<br>
+The Student is able to modify/edit any subjects and their marks after input.
+<br>
+Changes that can be made are:<br>
+-remove:Removes a subject that was inputed.<br>
+-replace:Replace the marks of a given subject inputed.<br>
+-add:Add a new subject.<br>
+
 
 GAME EXECUTION:
 ------
