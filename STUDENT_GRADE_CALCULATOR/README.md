@@ -12,8 +12,8 @@ Changes that can be made are:<br>
 -add:Add a new subject.<br>
 
 
-GAME EXECUTION:
-------
+CODE EXECUTION:
+---------------
 For the game to execute run the following in the terminal (after cloning the CODSOFT repository):<br>
 *java Main*
 
