@@ -7,7 +7,7 @@ Description
 This is a designed user interface for the ATM ,which consist of options such as withdrawing,depositing and checking the balance.
 
 
-GAME EXECUTION:
+CODE EXECUTION:
 ------
 For the game to execute run the following in the terminal (after cloning the CODSOFT repository):<br>
 *java Main_atm*
