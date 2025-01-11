@@ -15,8 +15,9 @@ public class Interface {
         return input;
     }
     public static Double amount_input(){
-        Double num=Double.parseDouble("0");
+        Double num=Double.valueOf("0");
         System.out.print("| Enter Amount(ENTER '#' for back):  ");
+        @SuppressWarnings("resource")
         Scanner scan=new Scanner(System.in);
         String input=scan.nextLine();
         if (input.equals("#")){
@@ -24,7 +25,7 @@ public class Interface {
             return num;
     }
     try{
-        Double amount=Double.parseDouble(input);
+        Double amount=Double.valueOf(input);
         return amount;
     }
     catch (Exception e){
@@ -118,7 +119,7 @@ public static void withdraw_interface(){
             break;
         }
         else{
-            System.out.println("|Transition failed:");
+            System.out.println("|Transaction failed:");
             System.out.println("|"+limit);
             break;
         }}
