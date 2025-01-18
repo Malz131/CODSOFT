@@ -1,0 +1,27 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Connectiontestdrive",
+            "database": "Testdrive",
+            "username": "root",
+
+        }
+    ],
+    "java.project.sourcePaths": [
+        "GUESS_NUMBER",
+        "STUDENT_MANAGEMENT_SYSTEM",
+        "lib",
+    ],
+    
+    "java.project.outputPath":"bin",
+    "java.project.referencedLibraries":["lib/**/*.jar"],
+
+}
