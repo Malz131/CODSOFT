@@ -16,7 +16,7 @@ Options for the User are:<br>
 
 CODE EXECUTION:
 ---------------
-For the game to execute run the following in the terminal (after cloning the CODSOFT repository):<br>
+For the code to execute run the following in the terminal (after cloning the CODSOFT repository):<br>
 *java StudentManagement*
 
 Example Display:

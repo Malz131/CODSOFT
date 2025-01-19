@@ -13,7 +13,7 @@ SIDE NOTE:<BR>
 
 CODE EXECUTION:
 ---------------
-For the game to execute run the following in the terminal (after cloning the CODSOFT repository):<br>
+For the code to execute run the following in the terminal (after cloning the CODSOFT repository):<br>
 *java Converter*
 
 Example Display:
